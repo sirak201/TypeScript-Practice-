@@ -1,0 +1,19 @@
+{
+  "name": "typescript_practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "greeter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirak201/TypeScript-Practice-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirak201/TypeScript-Practice-/issues"
+  },
+  "homepage": "https://github.com/sirak201/TypeScript-Practice-#readme"
+}
