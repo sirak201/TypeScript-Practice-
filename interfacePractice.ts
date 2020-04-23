@@ -55,13 +55,33 @@ let strFromArr: String = myArr[0];
 
 interface ClockInterface {
   currentTime: Date;
+  setTime(d: Date): void;
 }
 
 class Clock implements ClockInterface {
   currentTime: Date = new Date();
+  setTime(d: Date) {
+    this.currentTime = d;
+  }
   constructor(h: number, m: number) {}
 }
 
 let myClock = new Clock(2, 23);
+myClock.setTime(new Date(1995));
 
 console.log(myClock.currentTime);
+
+// Extending interfaces
+
+interface Shape {
+  color: string;
+}
+
+interface Square extends Shape {
+  sideLength: number;
+}
+
+let square = {} as Square;
+
+square.color = "blue";
+square.sideLength = 22;
